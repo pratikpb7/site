@@ -1,0 +1,164 @@
+body {
+  text-align: center;
+  font-family: "Montserrat;"
+}
+
+/* Heading section */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.big-heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.5rem;
+  line height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Container */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+
+/* Navigation section */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+
+/* Title image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  right: 30%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title section */
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+#title .container-fluid {
+  padding:3% 15% 7%;
+}
+
+
+p {
+  color: #8f8f8f;
+}
+
+/* Feature section */
+#features {
+  background-color: #fff;
+}
+
+.feature-box {
+  padding: 5%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* Icon section */
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+
+/* Testimonials section */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testmonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Press section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Media query section */
+@media (max-width:1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+    line-height: 1.5;
+  }
+}
+
+/* cta section */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+}
+/* Footer section */
+#footer {
+  color: #fff;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
